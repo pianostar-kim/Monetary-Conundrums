@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=bpH5ZfonExo
+https://www.youtube.com/watch?v=7TEcZLIVvHg
+https://www.youtube.com/watch?v=GS452KMVWKA
+https://letsgeekblog.wordpress.com/2017/03/11/drag-object-script-in-unity3d/
+https://gamedev.stackexchange.com/questions/184481/check-if-2-objects-with-multiple-colliders-overlap-using-bounds
+https://docs.unity3d.com/ScriptReference/WaitUntil.html
+https://answers.unity.com/questions/1365672/buttons-will-not-change-color.html
+bill and coin models made using blender
+Piggy Bank.jpg and Piggy Bank Overlapped.jpg made using Photoshop
