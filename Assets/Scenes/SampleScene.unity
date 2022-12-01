@@ -392,11 +392,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5467951127260664923, guid: b38effacc9671854fb237894c99d309c,
-        type: 3}
-      propertyPath: cents
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6204258406961710596, guid: b38effacc9671854fb237894c99d309c,
         type: 3}
       propertyPath: m_RootOrder
@@ -415,7 +410,7 @@ PrefabInstance:
     - target: {fileID: 6204258406961710596, guid: b38effacc9671854fb237894c99d309c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6204258406961710596, guid: b38effacc9671854fb237894c99d309c,
         type: 3}
@@ -456,6 +451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dime
+      objectReference: {fileID: 0}
+    - target: {fileID: 6724477372283706558, guid: b38effacc9671854fb237894c99d309c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b38effacc9671854fb237894c99d309c, type: 3}
@@ -1065,7 +1065,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 443, y: -196}
-  m_SizeDelta: {x: 854.5063, y: 293.5569}
+  m_SizeDelta: {x: 740, y: 293.5569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &663688787
 MonoBehaviour:
@@ -1117,8 +1117,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2393,7 +2393,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6020576, y: 1.112917, z: 1}
+  m_Size: {x: 1.6020576, y: 1.112917, z: 3}
   m_Center: {x: 0.000000059604645, y: 0.01881978, z: 0}
 --- !u!4 &1203246017
 Transform:
@@ -4116,7 +4116,7 @@ PrefabInstance:
     - target: {fileID: 1157847084178004425, guid: e29898c2846476c459cf81bea4d51121,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1157847084178004425, guid: e29898c2846476c459cf81bea4d51121,
         type: 3}
@@ -4158,10 +4158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Twenty-Dollar Bill
       objectReference: {fileID: 0}
-    - target: {fileID: 5637356412624606787, guid: e29898c2846476c459cf81bea4d51121,
+    - target: {fileID: 1971080636430451571, guid: e29898c2846476c459cf81bea4d51121,
         type: 3}
-      propertyPath: dollars
-      value: 20
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e29898c2846476c459cf81bea4d51121, type: 3}
@@ -4190,7 +4190,7 @@ PrefabInstance:
     - target: {fileID: 1661425941243361685, guid: 9e774b84308c42c4c91f195bb5bb956e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1661425941243361685, guid: 9e774b84308c42c4c91f195bb5bb956e,
         type: 3}
@@ -4232,10 +4232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quarter
       objectReference: {fileID: 0}
-    - target: {fileID: 5889467887369891964, guid: 9e774b84308c42c4c91f195bb5bb956e,
+    - target: {fileID: 2037107780919075631, guid: 9e774b84308c42c4c91f195bb5bb956e,
         type: 3}
-      propertyPath: cents
-      value: 25
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e774b84308c42c4c91f195bb5bb956e, type: 3}
@@ -4246,11 +4246,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3671891809538579820, guid: 85dd2f858320ab047abae828e94dfb7e,
-        type: 3}
-      propertyPath: cents
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7323262271540352913, guid: 85dd2f858320ab047abae828e94dfb7e,
         type: 3}
       propertyPath: m_RootOrder
@@ -4269,7 +4264,7 @@ PrefabInstance:
     - target: {fileID: 7323262271540352913, guid: 85dd2f858320ab047abae828e94dfb7e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7323262271540352913, guid: 85dd2f858320ab047abae828e94dfb7e,
         type: 3}
@@ -4311,6 +4306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Penny
       objectReference: {fileID: 0}
+    - target: {fileID: 7992381430571109675, guid: 85dd2f858320ab047abae828e94dfb7e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85dd2f858320ab047abae828e94dfb7e, type: 3}
 --- !u!1001 &4401629788681994437
@@ -4338,7 +4338,7 @@ PrefabInstance:
     - target: {fileID: 280466440778821597, guid: 1541c9ed84721124fb4651544595c025,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 280466440778821597, guid: 1541c9ed84721124fb4651544595c025,
         type: 3}
@@ -4380,10 +4380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ten-Dollar Bill
       objectReference: {fileID: 0}
-    - target: {fileID: 5357265501474571876, guid: 1541c9ed84721124fb4651544595c025,
+    - target: {fileID: 625923457363375463, guid: 1541c9ed84721124fb4651544595c025,
         type: 3}
-      propertyPath: dollars
-      value: 10
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1541c9ed84721124fb4651544595c025, type: 3}
@@ -4398,6 +4398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Five-Dollar Bill
+      objectReference: {fileID: 0}
+    - target: {fileID: 2502371745656871498, guid: d135d131764eb0743a4dc16eea96a68e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3022449114163593456, guid: d135d131764eb0743a4dc16eea96a68e,
         type: 3}
@@ -4417,7 +4422,7 @@ PrefabInstance:
     - target: {fileID: 3022449114163593456, guid: d135d131764eb0743a4dc16eea96a68e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3022449114163593456, guid: d135d131764eb0743a4dc16eea96a68e,
         type: 3}
@@ -4454,11 +4459,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 5294136627252994254, guid: d135d131764eb0743a4dc16eea96a68e,
-        type: 3}
-      propertyPath: dollars
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d135d131764eb0743a4dc16eea96a68e, type: 3}
 --- !u!1001 &4541616508948599283
@@ -4468,11 +4468,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1067964001390214464, guid: 8682f2f64178c23499e7241d5cc314a3,
-        type: 3}
-      propertyPath: dollars
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2723388879306718636, guid: 8682f2f64178c23499e7241d5cc314a3,
         type: 3}
       propertyPath: m_RootOrder
@@ -4491,7 +4486,7 @@ PrefabInstance:
     - target: {fileID: 2723388879306718636, guid: 8682f2f64178c23499e7241d5cc314a3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2723388879306718636, guid: 8682f2f64178c23499e7241d5cc314a3,
         type: 3}
@@ -4533,6 +4528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: One-Dollar Bill
       objectReference: {fileID: 0}
+    - target: {fileID: 3350884200309008150, guid: 8682f2f64178c23499e7241d5cc314a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8682f2f64178c23499e7241d5cc314a3, type: 3}
 --- !u!1001 &7337562084776816431
@@ -4560,7 +4560,7 @@ PrefabInstance:
     - target: {fileID: 4990598603272093987, guid: 75e00f1507b503648811f010d0a504c8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4990598603272093987, guid: 75e00f1507b503648811f010d0a504c8,
         type: 3}
@@ -4602,10 +4602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nickel
       objectReference: {fileID: 0}
-    - target: {fileID: 5917584479685967351, guid: 75e00f1507b503648811f010d0a504c8,
+    - target: {fileID: 5623300838201514905, guid: 75e00f1507b503648811f010d0a504c8,
         type: 3}
-      propertyPath: cents
-      value: 5
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75e00f1507b503648811f010d0a504c8, type: 3}
